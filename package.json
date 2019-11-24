@@ -1,0 +1,20 @@
+{
+  "name": "react-hooks-registry",
+  "version": "0.0.1",
+  "description": "Custom hooks for equally custom React renderers.",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "hooks",
+    "custom",
+    "renderer"
+  ],
+  "repository": "https://github.com/cawfree/react-hooks-registry",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "events": "^3.0.0",
+    "react": "^16.0.0"
+  }
+}
