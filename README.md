@@ -47,8 +47,8 @@ const App = ({ ...extraProps }) => {
 HooksRegistry
   .register(
     App,
-    document.getElementById('root'),
     ReactDOM.render, // or use a custom renderer
+    document.getElementById('root'),
   );
 ```
 

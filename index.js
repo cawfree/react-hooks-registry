@@ -34,7 +34,7 @@ export const { useState, useEffect } = (function() {
   }
 })();
 
-const register = (Child, toContainer, render) => {
+const register = (Child, render, ...extras) => {
   class CustomHooksComponent extends React.Component {
     constructor(props) {
       super(props);
@@ -60,7 +60,7 @@ const register = (Child, toContainer, render) => {
       );
     }
   } 
-  return render(<CustomHooksComponent />, toContainer);
+  return render(<CustomHooksComponent />, ...extras);
 };
 
 export default {
