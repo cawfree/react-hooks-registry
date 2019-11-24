@@ -1,7 +1,7 @@
 # react-hooks-registry
 Custom hooks for equally custom React renderers. Inspired by [Swyx](https://twitter.com/swyx)'s [Deep Dive on React Hooks](https://www.netlify.com/blog/2019/03/11/deep-dive-how-do-react-hooks-really-work/).
 
-Currently, [React Hooks](https://reactjs.org/docs/hooks-intro.html) impose a dependency on the runtime version React DOM. This makes it difficult to roll hooks-based applications in the context of [custom React renderers](https://github.com/nitin42/Making-a-custom-React-renderer). This repository aims to make it possible to work around this restriction.
+<strike>Currently, [React Hooks](https://reactjs.org/docs/hooks-intro.html) impose a dependency on the runtime version React DOM. This makes it difficult to roll hooks-based applications in the context of [custom React renderers](https://github.com/nitin42/Making-a-custom-React-renderer). This repository aims to make it possible to work around this restriction.</strike>
 
 ## 🚀 Getting Started
 
