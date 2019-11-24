@@ -19,7 +19,7 @@ yarn add react-hooks-registry
 
 ## ✍️ Usage
 
-```bash
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HooksRegistry, { useState, useEffect } from 'react-hooks-registry';
